@@ -1,0 +1,54 @@
+
+html, body {
+    margin:0;
+    padding:0;
+
+    font-family: "Roboto", sans-serif;
+
+    background: linear-gradient(314deg,#a33074,#e7a407,#8db975,#73eda9);
+    background-attachment: fixed;
+    background-size: 300% 300%;
+    animation: gradient-animation 50s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0%   { background-position: 0% 50%; }
+    50%  { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+
+#menu, #menu a {
+    font-size: 12pt;
+    color: black;
+    text-shadow:
+        -1px -1px 0 #FFF,
+        1px -1px 0 #FFF,
+        -1px 1px 0 #FFF,
+        1px 1px 0 #FFF;  
+}
+
+#menu {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#output {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+    
+    font-size: 32pt;
+
+    color: #fff;
+    text-shadow:
+        -0.02em -0.02em 0 #000,
+        0.02em -0.02em 0 #000,
+        -0.02em 0.02em 0 #000,
+        0.02em 0.02em 0 #000;  
+}

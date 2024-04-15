@@ -1,0 +1,29 @@
+{
+    "vocabulary_size": 2560,
+
+    "block_size": 128,
+    "n_layer": 5,
+    "n_head": 5,
+    "n_embd": 175,
+    "dropout": 0.2,
+    "bias": true,
+
+    "batch_size": 64,
+    "num_workers": 2,
+
+    "eval_interval": 2000,
+    "eval_iters": 200,
+    
+    "max_iters": 500000,
+    "learning_rate": 1e-3, 
+    "warmup_iters": 100,
+    "lr_decay_iters": 500000,
+    "min_lr": 1e-4,
+    "decay_lr": true,
+
+    "weight_decay": 1e-1,
+    "beta1": 0.9,
+    "beta2": 0.99,
+
+    "grad_norm_clip": 1.0
+}
