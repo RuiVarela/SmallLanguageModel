@@ -5,6 +5,10 @@ As a research demo I've built [Eça](https://eca.demanda.pt/) persona, a simple 
 Eça was a well known Portuguese writer, so this persona rambles only in Português from Portugal.   
 The model is tiny compared with LLM's so it gets wierd very quickly.   
 
+
+https://github.com/RuiVarela/SmallLanguageModel/assets/11543973/0707cd0e-760d-4dc3-b8e4-0588dc8b6873
+
+
 # Features
 - basic tokenizer trainer
 - a simple gpt model based on Andrej Karpathy lectures
