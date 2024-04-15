@@ -52,6 +52,7 @@ python main.py --project "eca_queiroz" --export
 # update `app.js` to use your newly created folder
 
 # run a local webserver i.e:
+cd web
 npx light-server -s . -p 8080
 ```
 
