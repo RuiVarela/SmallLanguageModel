@@ -1,10 +1,9 @@
-# SmallLanguageModel
+# Small Language Model
 A minimal gpt training environment
 
-As a research demo I've build (Eça)[https://eca.demanda.pt/] persona,
-a simple gpt model trained from scratch on Eça de Queirós books,
-Eça was a well known Portuguese writer, so this persona rambles only in Português from Portugal.
-The model is tiny compared with LLM's so it gets wierd very quickly.
+As a research demo I've built [Eça](https://eca.demanda.pt/) persona, a simple gpt model trained from scratch on Eça de Queirós books,   
+Eça was a well known Portuguese writer, so this persona rambles only in Português from Portugal.   
+The model is tiny compared with LLM's so it gets wierd very quickly.   
 
 # Features
 - basic tokenizer trainer
