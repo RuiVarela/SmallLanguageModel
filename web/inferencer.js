@@ -1,4 +1,5 @@
-import * as ort from "https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/esm/ort.min.js"
+//import * as ort from "https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/esm/ort.min.js"
+import * as ort  from 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/+esm'
 
 //https://github.com/microsoft/onnxruntime-inference-examples/blob/main/js/quick-start_onnxruntime-web-script-tag/index_esm.html
 //https://github.com/karpathy/llama2.c
