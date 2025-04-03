@@ -1,5 +1,4 @@
-//import * as ort from "https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/esm/ort.min.js"
-import * as ort  from 'https://cdn.jsdelivr.net/npm/onnxruntime-web@1.20.1/+esm'
+import * as ort from "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.21.0/+esm"
 
 //https://github.com/microsoft/onnxruntime-inference-examples/blob/main/js/quick-start_onnxruntime-web-script-tag/index_esm.html
 //https://github.com/karpathy/llama2.c
@@ -17,7 +16,7 @@ export class Inferencer {
     }
 
     async load() {
-        ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/";
+        ort.env.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.21.0/dist/";
 
         // load json from a server
         let filename = this.projectName + "/project.json"
